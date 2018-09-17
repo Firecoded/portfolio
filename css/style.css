@@ -286,7 +286,17 @@ input:-webkit-autofill {
    font-weight: bold;
    letter-spacing: -3px;
    margin-bottom: 20px;
+   text-shadow: 2px 2px 3px #454646;
 }
+.home-content h1, .social {
+    animation: fadein 4.8s ease-out 0s 1;
+}
+/*.home-content h1, .social {
+    opacity: 0;
+}
+.home-content h1:after, .social:after {
+    opacity: 1;
+}*/
 
 .home:before {
     content: "";
@@ -303,8 +313,6 @@ input:-webkit-autofill {
     height: 30px;
 }
 
-
-
 .social a{
     color: #fff;
     font-size: 15px;
@@ -312,12 +320,10 @@ input:-webkit-autofill {
     transition: all ease 0.3s;
 }
 
-
 .social a:hover{
     transition: all ease 0.3s;
     opacity: 0.5;
 }
-
 
 .home-down {
     color: #fff;
@@ -369,6 +375,10 @@ input:-webkit-autofill {
 	 -webkit-animation: bounce 2s infinite;
 	 -moz-animation: bounce 2s infinite;
 	 -o-animation: bounce 2s infinite;
+}
+@keyframes fadein {
+    0%, 80% {opacity:0;}
+    100% {opacity:1;}
 }
 
 .diagonal{
