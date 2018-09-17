@@ -288,15 +288,7 @@ input:-webkit-autofill {
    margin-bottom: 20px;
    text-shadow: 2px 2px 3px #454646;
 }
-.home-content h1, .social {
-    animation: fadein 4.8s ease-out 0s 1;
-}
-/*.home-content h1, .social {
-    opacity: 0;
-}
-.home-content h1:after, .social:after {
-    opacity: 1;
-}*/
+
 
 .home:before {
     content: "";

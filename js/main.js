@@ -1,6 +1,7 @@
 'use strict'; 
 $(window).load( function() {	
     
+    $('.home-content .container').hide();
 
     // LIGHTBOX VIDEO
     $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
@@ -44,7 +45,9 @@ $(window).load( function() {
 
     setTimeout(function() {
         $(".loader-wrapper").fadeOut('fast');
-        (loader).fadeOut('fast');
+        (loader).fadeOut('fast', function() {
+            $(".home-content .container").fadeIn('slow');
+        });
     }, 3500);
 
     
