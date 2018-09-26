@@ -7,7 +7,7 @@
 <meta name="keywords" content="personal, portfolio">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Favicon -->   
-<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
 
 <!-- Stylesheets -->
 <link rel="stylesheet" href="css/bootstrap.css"/>
@@ -43,7 +43,7 @@
         <div class="row">
             <div class="container">
                 <div class="logo">
-                    <img src="images/logo.png" alt="">
+                    <!-- <img src="images/logo.png" alt=""> -->
                 </div>
                 <div class="responsive"><i data-icon="m" class="icon"></i></div>
                 <ul class="nav-menu">
@@ -89,7 +89,7 @@
     </section>
     <!--ABOUT-->
     <section class="about dgray-bg" id="about">
-<div class="about type-1 padbot_120">
+        <div class="about type-1 padbot_120">
             <div class="container">
                 <!-- about image -->
                 <div class="col-md-4 col-sm-12 about-image top_30">
@@ -110,8 +110,8 @@
                     </p>
                 </div>
                 
-                <!-- work areas -->
-                <div class="owl-carousel work-areas top_60 bottom_30" data-pagination="false" data-autoplay="3000" data-items-desktop="5" data-items-desktop-small="4" data-items-tablet="2" data-items-tablet-small="1">
+                <!-- work areas --> 
+                <div class="owl-carousel work-areas top_60 bottom_30 add-cursor" data-pagination="false" data-autoplay="3000" data-items-desktop="5" data-items-desktop-small="4" data-items-tablet="2" data-items-tablet-small="1">
                     <!-- an area -->
                     <div class="area col-md-12 item">
                         <div class="skill-cont">
@@ -185,7 +185,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="owl-carousel work-areas top_30 bottom_60" data-pagination="false" data-autoplay="3000" data-items-desktop="5" data-items-desktop-small="4" data-items-tablet="2" data-items-tablet-small="1">
+                <div class="owl-carousel work-areas top_30 bottom_60 add-cursor" data-pagination="false" data-autoplay="3000" data-items-desktop="5" data-items-desktop-small="4" data-items-tablet="2" data-items-tablet-small="1">
+
                     <!-- an area -->
                     <div class="area col-md-12 item">
                         <div class="skill-cont">
@@ -279,19 +280,19 @@
                 <div class="row">
                     <div href="single-blog.html" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow fadeInUp" data-wow-delay="0.4s">
                         <div class="blog-image">
-                            <img src="images/getdevjobpic.png">
+                            <img src="images/getdevjob.jpg">
                         </div>
                         <h2 class="blog-title">getDevJob(you)</h2>
-                        <p>A job listing site focused on helping web developers find their next gig. The site was built with ... and notable features include ... </p>
-                        <span class="blog-info"><span>Larry Stark</span> - 7 September 2016 </span>
+                        <p>A job listing site focused on helping web developers find their next gig. The site was built with React.js, Redux, Materialize, HTML, CSS, PHP and MySQL. </p>
+                        <span class="blog-info "><span><a href='https://getdevjob.com' target="_blank">Live Demo</a> </span> - <a target="_blank" href = 'https://github.com/Firecoded/react_getdevjob'>GitHub</a></span>
                     </div>
                     <div href="single-blog.html" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow fadeInUp" data-wow-delay="0.6s">
                         <div class="blog-image">
-                            <img src="images/blog-2.jpg">
+                            <img src="images/concertfinder.jpg">
                         </div>
-                        <h2 class="blog-title">Two Before Arrow Not Relied</h2>
-                        <p>Quick six blind smart out burst. Perfectly on furniture dejection determine my depending an to. Add short water court fat.  </p>
-                        <span class="blog-info"><span>Larry Stark</span> - 7 September 2016 </span>
+                        <h2 class="blog-title">ConcertFinder</h2>
+                        <p>App that helps find concerts and search for restuarants, bars and hotels near the venue. Built with Javascript, jQuery, HTML and CSS. Utilized Ajax to access data from TicketMaster, Google and Yelp.</p>
+                        <span class="blog-info "><span><a href='http://concertfinder.tk' target="_blank">Live Demo</a> </span> - <a target="_blank" href = 'https://github.com/Firecoded/concertfinder'>GitHub</a></span>
                     </div>
                     <div href="single-blog.html" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow hidden-sm fadeInUp" data-wow-delay="0.8s">
                         <div class="blog-image">
@@ -314,22 +315,22 @@
     <section class="contact" id="contact">
         <div class="container">
             
-            <div class="section-title dleft top_90">
+            <div class="section-title dleft top_30">
                 <h2 class="bottom_30">GET IN TOUCH</h2>
             </div>
             <div class="col-md-3">
                 <!-- Contact Info -->
                 <ul class="contact-info row">
                     <li>Irvine, California</li>
-                    <li><br>jacob@jacobcodes.com</li>
-                    <li>480.395.7011</li>
+                    <li><br><span class = 'contact-email'></span></li>
+                    <li><span class = 'contact-phone'></span></li>
                 </ul>
                 <div class="social-icons top_60 row"> 
                     <a class="fb" href="https://github.com/Firecoded" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> 
                     <a class="tw" href="https://www.linkedin.com/in/jacobcodes/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>     
                 </div>
             </div>
-            <div class="col-md-7 col-md-offset-2 form top_30 bottom_90">
+            <div class="col-md-7 col-md-offset-2 form top_30 bottom_45">
                     <div class="page-title sub">
                         <h5>leave me a message</h5>
                     </div>
@@ -356,8 +357,8 @@
     <footer>
         <div class="container">
             <div class="social">
-                <a href="https://github.com/Firecoded" target="_blank">github </a>
-                <a href="https://www.linkedin.com/in/jacobcodes/" target="_blank">linkedin </a>     
+                <a href="https://github.com/Firecoded" target="_blank">GitHub <i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/jacobcodes/" target="_blank">LinkedIn <i class="fa fa-linkedin btm-icon" aria-hidden="true"></i></a>     
             </div>
             <p></p>
         </div>

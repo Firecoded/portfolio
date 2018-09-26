@@ -34,7 +34,7 @@ nav{
     background: #fff;
     z-index: 1000;
     width: 100%;
-    padding: 30px;
+    padding: 15px;
     display: none;
     -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
     -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
@@ -77,8 +77,8 @@ nav ul li a:hover{
 
 footer{
     background: #000;
-    padding: 90px 0;
-    margin-top:90px;
+    padding: 45px 0;
+    margin-top:45px;
     text-align: center;
 }
 
@@ -148,8 +148,11 @@ input:-webkit-autofill {
    margin-bottom: 20px;
 }
 
-
 /* Margins */
+
+.add-cursor{
+    cursor: pointer;
+}
 
 .top_15{
     margin-top: 15px;
@@ -836,11 +839,12 @@ input:-webkit-autofill {
 }
 
 .blog-info{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     color: #b9b9b9;
     margin-top: 20px;
     display: inline-block;
+    text-align: center;
 }
 
 .blog-info span{
@@ -1061,6 +1065,12 @@ a.site-button{
     transition: all ease 0.3s;
 }
 
+.btm-icon{
+    background-color: #0077b5;
+    border-radius: 4px;
+    border: 1px solid #0077b5;
+    padding: 1px;
+}
 
 
 
@@ -1112,7 +1122,7 @@ a.site-button{
     }
     
     nav{
-        padding:30px 15px;
+        padding:20px 15px;
     }
     
     .nav-menu{
@@ -1135,7 +1145,11 @@ a.site-button{
         float: right;
         display: block;
     }
-    
+    footer{
+        padding: 30px 0;
+        margin-top:30px;
+        text-align: center;
+    }
     .about {
     padding-top: 60px;
     }
@@ -1212,8 +1226,6 @@ a.site-button{
     left: 0;
     z-index: -1;
 }
-
-
 
 .wow-removed{
      animation-name: none !important;

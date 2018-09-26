@@ -2,6 +2,8 @@
 $(window).load( function() {	
     
     $('.home-content .container').hide();
+    $('.contact-email').text('contactjacobtay@gmail.com');
+    $('.contact-phone').text('480.800.2913');
 
     // LIGHTBOX VIDEO
     $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
@@ -48,7 +50,7 @@ $(window).load( function() {
         (loader).fadeOut('fast', function() {
             $(".home-content .container").fadeIn('slow');
         });
-    }, 3500);
+    }, 3000);
 
     
 
