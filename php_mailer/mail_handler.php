@@ -11,19 +11,19 @@ $output = [
     'messages' => []
 ];
 //sanitize name field
-$message['name'] = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
+$message['name'] = filter_var($_POST['con_name'], FILTER_SANITIZE_STRING);
 if(empty($message['name'])){
     $output['success'] = false;
     $output['messages'][] = 'missing name key';
 }
 //validate email
-$message['email'] = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
+$message['email'] = filter_var($_POST['con_email'], FILTER_VALIDATE_EMAIL);
 if(empty($message['email'])){
     $output['success'] = false;
     $output['messages'][] = 'invalid email key';
 }
 //sanitize message
-$message['message'] = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
+$message['message'] = filter_var($_POST['con_message'], FILTER_SANITIZE_STRING);
 if(empty($message['message'])){
     $output['success'] = false;
     $output['messages'][] = 'missing message key';
