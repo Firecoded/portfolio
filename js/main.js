@@ -3,7 +3,7 @@ $(window).load( function() {
     
     $('.home-content .container').hide();
     $('.contact-email').text('contactjacobtay@gmail.com');
-    $('.contact-phone').text('480.800.2913');
+    $('.contact-phone').text('657.229.2226');
 
     // LIGHTBOX VIDEO
     $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
