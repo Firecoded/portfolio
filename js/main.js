@@ -33,8 +33,9 @@ $(window).load( function() {
             width: o
         }, 10)
         o += 3;
-    } while (o <= 400)
-    if (o === 402) {
+    } while (o <= 387)
+    console.log(o)
+    if (o === 390) {
         loader.animate({
             left: 0,
             width: '100%'
@@ -46,8 +47,8 @@ $(window).load( function() {
     }
 
     setTimeout(function() {
-        $(".loader-wrapper").fadeOut('fast');
-        (loader).fadeOut('fast', function() {
+        $(".loader-wrapper").fadeOut('slow');
+        (loader).fadeOut('slow', function() {
             $(".home-content .container").fadeIn('slow');
         });
     }, 3000);
