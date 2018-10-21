@@ -34,7 +34,6 @@ $(window).load( function() {
         }, 10)
         o += 3;
     } while (o <= 387)
-    console.log(o)
     if (o === 390) {
         loader.animate({
             left: 0,

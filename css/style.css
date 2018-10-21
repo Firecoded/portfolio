@@ -629,7 +629,7 @@ input:-webkit-autofill {
 
 .about-image img{
     width: 100%;
-    filter: grayscale(40%);
+    filter: grayscale(25%);
  }   
 
 .work-areas{
@@ -750,7 +750,7 @@ input:-webkit-autofill {
 }
 .skills-header{
     position: absolute;
-    bottom: 47%;
+    bottom: 44%;
     right: 25%;
     font-weight: bold;
 }
