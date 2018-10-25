@@ -153,6 +153,9 @@ input:-webkit-autofill {
 .add-cursor{
     cursor: pointer;
 }
+.all-scroll{
+    cursor: all-scroll;
+}
 
 .top_15{
     margin-top: 15px;
