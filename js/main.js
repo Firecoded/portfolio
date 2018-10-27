@@ -3,8 +3,12 @@ $(window).load( function() {
     
     $('.home-content .container').hide();
     $('.contact-email').text('contactjacobtay@gmail.com');
-    $('.contact-phone').text('657.229.2226');
-
+    $('.contact-phone').text('657-229-2226');
+    // setInterval(increaseColor, 10)
+    // var i = 0;
+    // function increaseColor(){
+    //     $('.home-content h1').css('filter', `hue-rotate(${i++}deg)`)
+    // }
     // LIGHTBOX VIDEO
     $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
 		disableOn: 700,
