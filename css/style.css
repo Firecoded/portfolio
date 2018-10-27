@@ -267,14 +267,7 @@ input:-webkit-autofill {
 
 /*------------------------ 2 Home ------------------------*/		
 
-.dot-shadow{
-    
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
-    }    
+
 .home{
     background:url(../images/home.jpg) bottom center;
     width: 100%;
@@ -296,11 +289,15 @@ input:-webkit-autofill {
 
 .home-content h1{
    font-size: 75px;
-   color: #fff;
    font-weight: bold;
-   letter-spacing: -3px;
+   font-family: 'Poppins', sans-serif;
    margin-bottom: 20px;
-   text-shadow: 2px 2px 3px #454646;
+   background-image: url('../images/ocean-crop.gif');
+   background-size: cover;
+    color: transparent;
+	-moz-background-clip: text;
+    -webkit-background-clip: text;
+    letter-spacing: -2px;
 }
 
 
@@ -1009,6 +1006,9 @@ ul.post-comment li p {
 
 .contact-info{
     text-align: center;
+    background: white;
+    padding: 12px;
+    box-shadow: 1px 1px 7px #efefef;
 }
 
 .contact-info i{
@@ -1025,6 +1025,10 @@ ul.post-comment li p {
 
 .contact-info p{
     line-height: 20px;
+}
+.contact h2,
+.contact h5 {
+    text-shadow: 0px 0px 4px white;
 }
 
 .section-title p{
@@ -1300,7 +1304,7 @@ a.site-button{
 
 
 .home-slider{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: -1;
