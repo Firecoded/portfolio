@@ -1,5 +1,5 @@
 'use strict'; 
-$(window).load( function() {	
+$(document).ready( function() {	
     
     $('.home-content .container').hide();
     $('.contact-email').text('contactjacobtay@gmail.com');
