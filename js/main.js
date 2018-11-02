@@ -3,7 +3,7 @@ $(document).ready( function() {
     
     $('.home-content .container').hide();
     $('.contact-email').text('contactjacobtay@gmail.com');
-    $('.contact-phone').text('657-229-2226');
+    $('.contact-phone').text('480-395-7011');
     // setInterval(increaseColor, 10)
     // var i = 0;
     // function increaseColor(){
