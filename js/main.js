@@ -120,7 +120,7 @@ $(document).ready( function() {
         $('html, body').stop().animate({
             'scrollTop': target.offset().top+2
         }, 500, 'swing', function () {
-            window.location.hash = target.selector;
+            window.location.hash = target[0].id;
             $(document).on("scroll", onScroll);
         });
     });
@@ -132,6 +132,7 @@ $(document).ready( function() {
     $('nav ul li a').each(function () {
         var currLink = $(this);
         var refElement = $(currLink.attr("href"));
+        console.log(refElement)
         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
             $('nav ul li a').removeClass("active");
             currLink.addClass("active");
