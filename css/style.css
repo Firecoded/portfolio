@@ -294,7 +294,7 @@ input:-webkit-autofill {
    margin-bottom: 20px;
    background-image: url('../images/ocean-crop.gif');
    background-size: cover;
-    color: transparent;
+    color: rgba(255,255,255,.2);
 	-moz-background-clip: text;
     -webkit-background-clip: text;
     letter-spacing: -2px;
@@ -1122,6 +1122,14 @@ a.site-button{
 
 
 /*max Width 992px */
+@media screen and (max-width: 1200px){
+    .skills-header{
+        position: absolute;
+        bottom: 41%;
+        right: 12%;
+        text-align: center;
+    }
+}
 
 @media screen and (max-width: 991px) {
 
@@ -1137,12 +1145,16 @@ a.site-button{
         background: none;
         margin-top: 0px;
     }
-    
+    .about.type-1 .about-image img{
+        width: 60%;
+        left: 15%;
+        position: relative;
+    }
     .about.type-1 .about-image img{
         margin: 0;
     }
     .skills-header{
-        bottom: 23%;
+        bottom: 27%;
         text-align: center;
         right: 19%;
     }
@@ -1155,7 +1167,7 @@ a.site-button{
 @media screen and (max-width: 767px) {
 
     .skills-header{
-        bottom: 24%;
+        bottom: 28%;
         text-align: center;
         right: 19%;
     }
