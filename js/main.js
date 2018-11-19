@@ -249,7 +249,6 @@ $('.responsive').on('click', function (e) {
          var con_message = $("#con_message").val().trim();
          var required = 0;
          $(".requie", this).each(function() {
-             console.log(arguments)
              if ($(this).val().trim() == '')
              {
                  $(this).addClass('reqError');
