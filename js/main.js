@@ -244,10 +244,9 @@ $('.responsive').on('click', function (e) {
         
          var uri = $(this).attr('action');
          $("#con_submit").val('Wait...');
-         var con_name = $("#con_name").val();
-         var con_email = $("#con_email").val();
-         var con_message = $("#con_message").val();
-        
+         var con_name = $("#con_name").val().trim();
+         var con_email = $("#con_email").val().trim();
+         var con_message = $("#con_message").val().trim();
          var required = 0;
          $(".requie", this).each(function() {
              if ($(this).val() == '')
