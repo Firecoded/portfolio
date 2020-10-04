@@ -1,13 +1,4 @@
-/* --------------------------------- */
-/* Css Styles                        */
-/*---------------------------------- */
-
-/**
-	Berlin - Portfolio Template 
-	Author : Tavonline
-	Copyright 2018
-
-/* Table of Content
+/* 
 ==================================================
 	
 	1. Body and Core Css
@@ -74,7 +65,10 @@ nav ul li a:hover{
     color:#afafaf;
 }
 
-
+.contact .container .social-icons {
+    display: flex;
+    justify-content: center;
+}
 footer{
     background: #000;
     padding: 45px 0;
@@ -292,11 +286,7 @@ input:-webkit-autofill {
    font-weight: bold;
    font-family: 'Poppins', sans-serif;
    margin-bottom: 20px;
-   background-image: url('../images/ocean-crop.gif');
-   background-size: 39% 126%;
-    color: rgba(255,255,255,.2);
-	-moz-background-clip: text;
-    -webkit-background-clip: text;
+    color: white;
     letter-spacing: -2px;
 }
 
@@ -1006,7 +996,12 @@ ul.post-comment li p {
 
 /*------------------------ 5 Contact ------------------------*/
 
-
+.contact .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .contact-info{
     text-align: center;
     background: white;
